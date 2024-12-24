@@ -1,51 +1,46 @@
-# Для запуска проекта, необходимо выполнить следующие шаги:
+# Getting Started with Create React App
 
-1. Склонировать репозиторий проекта по ссылке https://github.com/brian7346/employees-react-express на свой компьютер.
-```
-git clone https://github.com/brian7346/employees-react-express.git
-```
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-2. Открыть терминал (или командную строку) и перейти в корневую директорию проекта.
-```
-cd employees-react-express
-```
+## Available Scripts
 
-3. Установить зависимости для серверной части проекта. Введите следующую команду в терминале:
-```
-npm install
-```
+In the project directory, you can run:
 
-4. Переименовать файл .env.local (убрать .local)
-```
-.env
-```
+### `npm start`
 
-5. Сгенерировать типы
-```
-npx prisma generate
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-6. Создать базу данных и сделать миграцию
-```
-npx prisma migrate dev
-```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-7. Перейти в директорию client и установить зависимости для клиентской части проекта.
-```
-cd client
-npm install
-```
+### `npm test`
 
-8. Вернуться в корневую директорию проекта.
-```
-cd ..
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-9. Запустить проект. Введите следующую команду в терминале:
-```
-npm run dev
-```
+### `npm run build`
 
-10. Открыть браузер и перейти по адресу http://localhost:3000, чтобы увидеть запущенный проект.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Успешный запуск проекта должен показать список сотрудников в браузере. Если возникли какие-либо проблемы во время установки или запуска проекта, проверьте, что все вышеперечисленные шаги были выполнены правильно и в соответствии с инструкцией.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
